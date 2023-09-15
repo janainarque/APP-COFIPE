@@ -37,6 +37,14 @@
   text-align: center;
 }
 
+.titulo2 {
+  color: white;
+  font-size: 30px;
+  margin-top: 200px;
+  text-align: center;
+  display: none;
+}
+
 .img-celular {
   width: 19%;
   height: 38%;
@@ -44,6 +52,46 @@
   align-items: center;
   left: 41%;
 /*  margin-top: 26%;*/
+}
+
+.margin{
+  color: white;
+  font-size: 40px;
+  margin-top: 200px;
+  margin-top: 26%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .titulo {
+    font-size: 15px;
+  }
+  .titulo2 {
+     color: white;
+    font-size: 10px;
+    margin-top: 200px;
+    text-align: center;
+  }
+  .img-celular {
+    width: 19%;
+    height: auto;
+    position: absolute;
+    align-items: center;
+    left: 41%;
+  }
+  .margin{
+    font-size: 10px;
+    color: white;
+    margin-top: 200px;
+    margin-top: 25%;
+    margin-left: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
 }
 
 </style>
@@ -61,12 +109,18 @@
     <div class="container">
       <img src="imagem3.jpg" class="img-fundo" alt="Imagem de fundo">
       <div class="fundo-escuro">
-        <h1 class="titulo">Acesse o seu internet Bank e<br> 
-                           colobore com os desenvolvedores
+        <h1 class="titulo">Acesse o seu internet Bank e colobore com os desenvolvedores
                           <br>Faça o <strong>PIX</strong> ! 
-                        </h1>
-                        </br>
-            <img src="pix.jpeg" class="img-celular" alt="Imagem de celular">
+                          
+
+
+
+        </h1>
+        </br>
+        <img src="pix.jpeg" class="img-celular" alt="Imagem de celular">
+ 
+        <h1 class="margin"> Chave aleatória: fed83a52-494b-4348-a80f-65de8f643ae7</h1>
+
       </div>
     </div>
   </header>
